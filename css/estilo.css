@@ -5,6 +5,7 @@ html, body{
 
 /* estilo del index */
 
+
 .pagina {
 	text-align: center;
 	font-family: 'Maven Pro', sans-serif;
@@ -67,7 +68,7 @@ html, body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 10%;
+	padding: 5px 5%;
 	background-color: #181818;
 
 }
@@ -83,39 +84,43 @@ html, body{
 
 .boton_inicio li{
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 1px 30px;
+
+
 
 }
 
 .boton_inicio li a{
 	transition: all 0.3s ease 0s;
+	font-size: 25px;
 }
 
-.boton_inicio li a:hover {
+.boton_inicio li a: hover {
 	color: #0088a9;
 }
 
 button{
-	padding: 10px 50px;
+	padding: 10px 60px;
 	background-color: rgba(0, 136, 169, 1);
 	border: none;
 	border-radius: 50px;
 	cursor: pointer;
-	transition: all 0.8s ease 1s;
+	transition: all 1s ease 1s;
+
 }
 
 .button:hover{
-background-color: rgba(0, 136, 169, 1);	
+background-color: rgba(0, 0, 0, 0.5);	
 }
 
 .texto {
-	padding-right: 100px;
-	padding-left: 200px;
+	padding-right: 50px;
+	padding-left: 100px;
 	
-	font-size: 22px;
-	margin-bottom: 50px;
-	margin-top: 50px;
-	word-spacing: 8px;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	word-spacing: 1px;
 	color:  #DCDCDC;
 	line-height: 1.5em;
 
@@ -335,7 +340,7 @@ li, a, button {
 }
 .fotos {
 	width: 100%;
-	height: 300px;
+	height: 250px;
 	
 }
 .titulos{
@@ -351,7 +356,7 @@ li, a, button {
 }
 
 .imagenes{
-	width: 190px ; height: 120px;
+	width: 150px ; height: 100px;
 	
 	margin-bottom: 5px;
 	margin-right: 5px;
@@ -371,16 +376,18 @@ li, a, button {
 
 .futer{
 	color:  white;
+	font-size: 12px;
 }
 
 /* header de todas las paginas */
 
 .modificacion{
-	display: inline-block;
-	justify-content: center;
-	align-items:center;
-	padding: 2px 3%;
-	background-color: #181818
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 5%;
+	background-color: #181818;
+
 }
 .logo{
 	cursor: pointer;
@@ -394,28 +401,35 @@ li, a, button {
 
 .boton_inicio li{
 	display: inline-block;
-	padding: 0.5px 8px;
+	padding: 3px 10px;
+
+
+
 }
 
 .boton_inicio li a{
 	transition: all 0.3s ease 0s;
+	font-size: 15px;
 }
 
-.boton_inicio li a:hover {
+.boton_inicio li a: hover {
 	color: #0088a9;
 }
+
 button{
-	padding: 4px 50px;
+	padding: 8px 20px;
 	background-color: rgba(0, 136, 169, 1);
 	border: none;
-	border-radius: 20px;
+	border-radius: 50px;
 	cursor: pointer;
-	transition: all 0.3s ease 0s;
+	transition: all 1s ease 1s;
+
 }
 
 .button:hover{
-background-color: rgba(0, 136, 169, 1);	
+background-color: rgba(0, 0, 0, 0.5);	
 }
+
 
 .texto {
 	padding-right: 25px;
