@@ -1,0 +1,96 @@
+@import "_estilo";
+
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.pagina {
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: $color1; }
+
+.fotos {
+  width: 100%;
+  height: auto; }
+
+.titulos {
+  color: black;
+  background-color: $color2 }
+
+.tituloss {
+  color: black;
+  background-color: $color2 }
+
+  .info {
+  margin-top: $px1;
+  color: #DCDCDC;
+  font-size: 22px; }
+
+.imagenes {
+  width: 500px;
+  height: 300px;
+  border-radius: $px1;
+  margin-bottom: $px1;
+  margin-right: $px1;
+  padding-top: $px1; }
+
+  .iframegoogle {
+  width: 50%;
+  height: 1100px;
+  border-radius: 25px;
+  padding-top: $px2; }
+
+  .futer{
+    color: white;
+  }
+
+@media only screen and (min-width: 100px) and (max-width: 800px) {
+
+  body {
+  margin: 0;
+  padding: 0; }
+
+.pagina {
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: $color1; }
+
+.fotos {
+  width: 100%;
+  height: auto; }
+
+.titulos {
+  color: black;
+  background-color: $color2 }
+
+.tituloss {
+  color: black;
+  background-color: $color2 }
+
+  .info {
+  margin-top: $px1;
+  color: #DCDCDC;
+  font-size: 12px; }
+
+.imagenes {
+  width: 350px;
+  height: auto;
+  border-radius: $px1;
+  margin-bottom: $px1;
+  margin-right: $px1;
+  padding-top: $px1; }
+
+  .iframegoogle {
+  width: 50%;
+  height: auto;
+  border-radius: 25px;
+  padding-top: $px2; }
+
+  .futer{
+    color: white;
+  }
+    }
