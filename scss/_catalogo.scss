@@ -28,7 +28,7 @@
     margin: $px2;
     text-align: center;
     transition: all 0.25s;
-    background-color: #181818;
+    background-color: $color3;
     color: white; }
     
     .contenedor .card:hover {
@@ -55,17 +55,21 @@
 .logo {
   padding-top: $px2; }
 
-li {
+@mixin primero{
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
-  text-decoration: none; }
+  text-decoration: none;
+
+}
+
+li {
+  @include primero; 
+}
 
 a {
-  font-weight: 500;
-  font-size: 16px;
-  color: #edf0f1;
-  text-decoration: none; }
+  
+  @include primero;  }
 
 button {
   font-weight: 500;
