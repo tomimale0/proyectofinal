@@ -17,9 +17,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto; }
+  margin: auto; 
   
-  .contenedor .card {
+  .card {
     width: 330px;
     height: 400px;
     border-radius: 8px;
@@ -31,26 +31,27 @@
     background-color: $color3;
     color: white; }
     
-    .contenedor .card:hover {
+    hover {
       transform: translateY(-15px);
       box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5); }
     
-    .contenedor .card img {
+    img {
       width: 330px;
       height: 220px; }
     
-    .contenedor .card h4 {
+    h4 {
       font-weight: 600; }
    
-    .contenedor .card p {
+    p {
       padding: 0 1rem;
       font-size: 16px;
       font-weight: 300; }
    
-    .contenedor .card a {
+     a {
       font-weight: 500;
       text-decoration: none;
       color: #3498db; }
+      }
 
 .logo {
   padding-top: $px2; }
